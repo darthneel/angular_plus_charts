@@ -5,6 +5,7 @@ studentsApp.app = studentsApp.app || angular.module('studentsApp', ['angularChar
 studentsApp.app.controller('StudentsController', ['$scope', '$http', function($scope, $http) {
 
   $scope.chartType = "line";
+
   $scope.config = {
     "labels": false,
     "title": "Music Appreciation",
